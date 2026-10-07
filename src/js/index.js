@@ -10,10 +10,6 @@ document.body.style.backgroundColor = color;
 }
 
 var button = document.createElement("button");
-button.
-button
-innerHTML = "Mudar Cor";
-button.
-button
-onclick = changeColor;
+button.innerHTML = "Mudar cor de fundo";
+button.onclick = changeColor;
 document.body.appendChild(button);
