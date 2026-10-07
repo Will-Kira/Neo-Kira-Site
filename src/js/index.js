@@ -1,0 +1,19 @@
+alert("Bem-vindo ao meu site!");
+
+function changeColor() {
+  
+ 
+var color = prompt("Digite uma cor (em inglês):");
+  
+ 
+document.body.style.backgroundColor = color;
+}
+
+var button = document.createElement("button");
+button.
+button
+innerHTML = "Mudar Cor";
+button.
+button
+onclick = changeColor;
+document.body.appendChild(button);
