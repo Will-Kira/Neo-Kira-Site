@@ -127,8 +127,6 @@ footer p {
     margin-bottom: 16px;
 }
 
-
-
 .card-produto h3 {
     margin: 0 0 12px;
     font-size: 22px;
@@ -150,3 +148,23 @@ footer p {
         grid-template-columns: 1fr;
     }
 }
+
+#sobre{
+    background: white;
+    padding: 32px;
+    border-radius: 8px;
+    margin-top: 24px;
+}
+
+#sobre h2{
+    margin-top:0;
+}
+
+#contato{
+    text-align:center;
+    padding: 40px 24px;
+    margin-top:24px;
+    background-color: #eaf2ff;
+    border-radius: 8px;
+}
+
