@@ -47,3 +47,7 @@ Este projeto foi desenvolvido para praticar conhecimentos de desenvolvimento Fro
 
 ### Captura 4
 ![Neo Kira - Captura 4](./screenshots/neo-kira-desktop4.png.png)
+
+## 🌐 Acesse o Projeto
+
+🔗 [Visualizar Neo Kira Online](https://will-kira.github.io/Neo-Kira-Site/)
