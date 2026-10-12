@@ -26,7 +26,7 @@ body {
     color: white;
 }
 
-header > div {
+header .logo {
     font-size: 24px;
     font-weight: bold;
 }
@@ -40,6 +40,7 @@ nav {
 nav a {
     color: white;
     text-decoration: none;
+    margin-left: 20px;
     transition: color 0.2s ease;
 }
 
@@ -71,21 +72,27 @@ footer p {
 }
 
 #inicio {
-    padding: 64px 0;
+    padding: 64px 32px;
+    background-color: #21182e;
+    border-radius:12px;
 }
 
 #inicio h1 {
     margin: 0 0 16px;
+    color:#FFFFFF ;
+    font-size:48px;
+    line-height:1.2;
 }
 
 #inicio p {
     margin: 0 0 24px;
+    color: #D8D1E0;
 }
 
 .botao {
     display: inline-block;
     padding: 12px 24px;
-    background-color: #0056b3;
+    background-color: #AD345A;
     color: white;
     text-decoration: none;
     font-weight: bold;
@@ -95,7 +102,7 @@ footer p {
 
 .botao:hover,
 .botao:focus-visible {
-    background-color: #003f85;
+    background-color: #8E2748;
 }
 
 .botao:focus-visible {
@@ -118,6 +125,13 @@ footer p {
     background-color: white;
     border: 1px solid #ddd;
     border-radius: 8px;
+    transition: transform 0.3s ease,box-shadow 0.3s ease;
+}
+
+.card-produto:hover{
+    transform:translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    
 }
 
 .card-produto img {
@@ -138,7 +152,7 @@ footer p {
 
 .card-produto .preco {
     margin-top: auto;
-    color: #0056b3;
+    color: #AD345A;
     font-size: 24px;
     font-weight: bold;
 }
@@ -146,6 +160,13 @@ footer p {
 @media (max-width: 768px) {
     .grade-produtos {
         grid-template-columns: 1fr;
+    }
+      #inicio {
+        padding: 40px 20px;
+    }
+
+    #inicio h1 {
+        font-size: 32px;
     }
 }
 
